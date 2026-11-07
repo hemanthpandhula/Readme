@@ -1,16 +1,25 @@
-# Introduction to GitHub
+# Insight360 AI Workspace
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This repository contains the **Insight360 AI** project scaffold and implementation under `/home/runner/work/Readme/Readme/insight360-ai`.
 
-Hey 23wj1a05h1!
+## Quick start
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+```bash
+cd /home/runner/work/Readme/Readme/insight360-ai
+cp .env.example .env
+python -m venv .venv
+source .venv/bin/activate
+pip install -r backend/requirements.txt
+python datasets/generate_data.py
+docker compose up -d postgres
+python etl/pipelines/run_etl.py --mode full
+uvicorn backend.app.main:app --reload --port 8000
+```
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Frontend:
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/23wj1a05h1/Readme/issues/2)
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+```bash
+cd /home/runner/work/Readme/Readme/insight360-ai/frontend
+npm install
+npm run dev
+```

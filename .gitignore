@@ -1,37 +1,31 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.pytest_cache/
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# Node
+node_modules/
+dist/
+coverage/
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+# Env
+.env
+.env.*
+!.env.example
 
-# OS generated files #
-######################
+# Data outputs
+insight360-ai/datasets/generated/*.parquet
+insight360-ai/datasets/generated/*.csv
+insight360-ai/datasets/processed/*
+insight360-ai/ml/models/*.pkl
+insight360-ai/ml/reports/*.png
+insight360-ai/etl/reports/*.json
+insight360-ai/frontend/tsconfig.tsbuildinfo
+
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
