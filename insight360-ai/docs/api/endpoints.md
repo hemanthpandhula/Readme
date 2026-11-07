@@ -1,0 +1,19 @@
+# API Endpoints
+
+- GET /api/health
+- GET /api/dashboard/summary
+- GET /api/dashboard/trends
+- GET /api/sales
+- GET /api/customers
+- GET /api/products
+- GET /api/regions
+- GET /api/finance
+- POST /api/data/upload
+- POST /api/etl/run
+- GET /api/etl/status
+- GET /api/data-quality
+- GET /api/anomalies
+- POST /api/anomalies/run
+- GET /api/forecasts
+- POST /api/forecasts/run
+- POST /api/ai/chat
