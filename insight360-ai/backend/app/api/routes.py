@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile
@@ -29,7 +29,7 @@ def _svc(db: Session) -> DashboardService:
 
 @router.get('/health', response_model=HealthResponse)
 def health() -> HealthResponse:
-    return HealthResponse(status='ok', service='insight360-backend', timestamp=datetime.utcnow())
+    return HealthResponse(status='ok', service='insight360-backend', timestamp=datetime.now(timezone.utc))
 
 
 @router.get('/dashboard/summary', response_model=DashboardSummaryResponse)

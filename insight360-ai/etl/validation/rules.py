@@ -38,13 +38,15 @@ def missing_columns(df: pd.DataFrame, table: str) -> list[str]:
 def split_valid_invalid_sales(df: pd.DataFrame):
     work = df.copy()
     work["transaction_ts"] = pd.to_datetime(work["transaction_ts"], errors="coerce")
+    duplicate_ids = work.duplicated(subset=["transaction_id"], keep=False)
     rules = (
         work["transaction_ts"].notna()
         & (work["quantity"] > 0)
         & (work["revenue"] >= 0)
         & work["customer_id"].notna()
         & work["product_id"].notna()
+        & (~duplicate_ids)
     )
-    valid = work[rules].drop_duplicates(subset=["transaction_id"])
-    invalid = work[~rules | work.duplicated(subset=["transaction_id"], keep=False)]
+    valid = work[rules]
+    invalid = work[~rules]
     return valid, invalid

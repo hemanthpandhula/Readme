@@ -12,3 +12,10 @@
 
 ## Current state
 Core local MVP is implemented end-to-end. Remaining work is production hardening, richer auth, and fully automated CI.
+
+## Latest validation summary
+- Backend/unit tests: 7 passed, 0 failed, 0 skipped.
+- Frontend tests: 1 passed, 0 failed, 0 skipped.
+- Frontend build: success.
+- CodeQL (Python/JavaScript): 0 open alerts after remediation.
+- Secret scan on changed files: no secrets detected.

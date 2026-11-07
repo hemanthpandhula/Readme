@@ -1,0 +1,101 @@
+product_id,product_name,category,supplier_id,standard_cost,list_price
+1,Product 1,Beverages,20,391.89,183.95
+2,Product 2,Household,14,395.11,991.35
+3,Product 3,Household,9,750.57,379.3
+4,Product 4,Snacks,9,459.52,181.21
+5,Product 5,Beverages,9,381.42,1105.95
+6,Product 6,Stationery,17,217.25,206.98
+7,Product 7,Personal Care,7,268.6,348.82
+8,Product 8,Stationery,4,418.93,192.8
+9,Product 9,Household,7,353.93,147.43
+10,Product 10,Household,1,22.18,35.17
+11,Product 11,Household,3,661.9,75.92
+12,Product 12,Beverages,2,717.45,217.82
+13,Product 13,Snacks,16,116.5,73.52
+14,Product 14,Personal Care,15,445.46,713.46
+15,Product 15,Personal Care,14,91.32,820.05
+16,Product 16,Beverages,10,539.43,478.42
+17,Product 17,Personal Care,15,228.58,388.41
+18,Product 18,Beverages,4,529.24,610.39
+19,Product 19,Household,19,582.96,1051.26
+20,Product 20,Household,11,616.07,1022.85
+21,Product 21,Stationery,19,90.65,61.74
+22,Product 22,Household,4,733.23,225.98
+23,Product 23,Snacks,10,188.02,291.73
+24,Product 24,Stationery,14,34.74,306.77
+25,Product 25,Personal Care,10,446.11,689.77
+26,Product 26,Snacks,9,299.88,505.35
+27,Product 27,Stationery,4,664.68,68.61
+28,Product 28,Snacks,8,647.56,454.6
+29,Product 29,Beverages,5,257.13,633.27
+30,Product 30,Personal Care,7,762.56,130.99
+31,Product 31,Household,14,236.28,1001.82
+32,Product 32,Beverages,13,414.47,71.83
+33,Product 33,Personal Care,13,208.49,1110.56
+34,Product 34,Beverages,8,749.15,127.94
+35,Product 35,Household,20,135.86,1013.85
+36,Product 36,Personal Care,2,40.7,1084.16
+37,Product 37,Snacks,7,350.9,1175.69
+38,Product 38,Snacks,3,793.94,964.41
+39,Product 39,Personal Care,7,713.88,937.58
+40,Product 40,Household,20,600.14,774.56
+41,Product 41,Stationery,8,713.18,937.01
+42,Product 42,Personal Care,19,715.29,170.12
+43,Product 43,Beverages,10,417.49,647.92
+44,Product 44,Stationery,14,256.16,621.93
+45,Product 45,Household,10,618.75,1030.51
+46,Product 46,Household,6,531.02,560.73
+47,Product 47,Beverages,16,302.06,468.26
+48,Product 48,Snacks,20,80.1,771.08
+49,Product 49,Household,6,598.7,327.09
+50,Product 50,Stationery,16,213.66,176.32
+51,Product 51,Personal Care,6,749.77,578.67
+52,Product 52,Stationery,15,196.57,506.1
+53,Product 53,Stationery,16,102.59,286.76
+54,Product 54,Snacks,9,665.73,447.34
+55,Product 55,Stationery,15,126.86,446.01
+56,Product 56,Snacks,6,147.52,399.72
+57,Product 57,Snacks,2,481.51,461.56
+58,Product 58,Household,2,700.28,826.03
+59,Product 59,Household,9,161.17,363.28
+60,Product 60,Beverages,19,251.71,1139.14
+61,Product 61,Stationery,3,623.04,1100.45
+62,Product 62,Beverages,10,777.6,582.28
+63,Product 63,Stationery,15,403.09,400.75
+64,Product 64,Beverages,5,119.4,647.17
+65,Product 65,Household,15,16.08,1019.79
+66,Product 66,Household,7,187.58,786.58
+67,Product 67,Household,17,109.8,967.23
+68,Product 68,Household,12,543.74,643.94
+69,Product 69,Personal Care,11,101.86,763.17
+70,Product 70,Household,4,407.53,352.91
+71,Product 71,Snacks,10,556.94,884.52
+72,Product 72,Household,18,466.99,250.86
+73,Product 73,Personal Care,1,163.82,836.81
+74,Product 74,Personal Care,16,644.28,1034.26
+75,Product 75,Personal Care,10,573.75,167.2
+76,Product 76,Personal Care,15,592.49,741.11
+77,Product 77,Beverages,14,109.19,123.16
+78,Product 78,Beverages,9,103.38,873.6
+79,Product 79,Snacks,7,742.41,110.55
+80,Product 80,Beverages,13,321.07,1123.77
+81,Product 81,Personal Care,3,244.25,173.52
+82,Product 82,Household,12,393.42,1151.07
+83,Product 83,Household,2,531.98,963.05
+84,Product 84,Personal Care,13,764.72,716.48
+85,Product 85,Stationery,13,232.72,941.32
+86,Product 86,Personal Care,2,740.22,956.19
+87,Product 87,Beverages,16,24.76,1135.77
+88,Product 88,Household,9,446.38,311.53
+89,Product 89,Personal Care,16,509.01,712.19
+90,Product 90,Household,1,89.19,123.11
+91,Product 91,Personal Care,4,116.57,743.24
+92,Product 92,Personal Care,10,338.2,213.84
+93,Product 93,Beverages,4,773.15,682.29
+94,Product 94,Personal Care,7,478.85,691.19
+95,Product 95,Household,14,746.75,564.52
+96,Product 96,Snacks,3,644.47,631.93
+97,Product 97,Household,14,376.57,919.07
+98,Product 98,Beverages,3,628.89,961.1
+99,Product 99,Snacks,4,19.18,595.66
+100,Product 100,Personal Care,12,91.77,723.52

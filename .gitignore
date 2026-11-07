@@ -19,10 +19,12 @@ coverage/
 
 # Data outputs
 insight360-ai/datasets/generated/*.parquet
+insight360-ai/datasets/generated/*.csv
 insight360-ai/datasets/processed/*
 insight360-ai/ml/models/*.pkl
 insight360-ai/ml/reports/*.png
 insight360-ai/etl/reports/*.json
+insight360-ai/frontend/tsconfig.tsbuildinfo
 
 # OS
 .DS_Store
